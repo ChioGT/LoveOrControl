@@ -1335,7 +1335,16 @@ export default function AmorOControlApp() {
     community: <Community />,
     solana: <Solana />
   };
+const elevenLabs = useElevenLabs();
 
+const speakWithFallback = async (text) => {
+  if (!elevenLabs.audioEnabled) return;
+  try {
+    await elevenLabs.speak(text, true);
+  } catch (error) {
+    console.warn('Audio fallback:', error);
+  }
+};
   return (
     <div className="relative min-h-screen overflow-x-hidden bg-slate-950 text-slate-900">
       <div className="pointer-events-none fixed inset-0">
