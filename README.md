@@ -12,7 +12,7 @@
 
 **Live Link:**
 
-https://v0.app/chat/amor-o-control-app-fZ1l5kJn7JZ
+https://v0-amor-o-control-app.vercel.app/
 
 ---
 
