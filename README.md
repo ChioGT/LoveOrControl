@@ -1,5 +1,21 @@
 # Love or Control?
 
+## How to run.
+
+**Requirements:**
+ - Phantom Wallet with some $SOL on Devnet
+
+**From reposirory:**
+ - Clone the repo
+ - cd amor-control
+ - cd npm run dev
+
+**Live Link:**
+
+https://v0.app/chat/amor-o-control-app-fZ1l5kJn7JZ
+
+---
+
 ## Spot the red flags. Protect your peace.
 
 **Love or Control?** is an AI-powered mobile safety and psychoeducational platform designed to help young people identify early signs of psychological, emotional, and digital violence in dating relationships before they escalate.
